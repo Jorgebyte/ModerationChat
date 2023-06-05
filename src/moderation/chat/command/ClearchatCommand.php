@@ -11,6 +11,10 @@ use moderation\chat\Event;
 
 class ClearchatCommand extends Command
 {
+    
+    /** @var Event */
+    private $event;
+    
     public function __construct(Event $event)
     {
         parent::__construct("clearchat", "Use it to delete the chat", null, ["cc"]);
