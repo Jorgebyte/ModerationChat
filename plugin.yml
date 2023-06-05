@@ -1,0 +1,14 @@
+name: ModerationChat
+version: 1.0.0
+api: 5.0.0
+main: moderation\chat\Main
+author: Jorgebyte
+description: "Moderation Chat PocketMine-MP Api5"
+
+permissions:
+  bypasschat.mc:
+    description: "Bypass chat"
+    default: op
+  clearchat.command:
+    description: "clear chat command"
+    default: op

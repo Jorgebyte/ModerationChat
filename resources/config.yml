@@ -1,0 +1,31 @@
+
+# configure the time that they cannot send messages in a row.
+time: 2
+
+# message that will appear to the player who writes before the due time
+message-wait: "Wait a moment so we can talk"
+
+# Add the words you don't want used on your server as follows:
+forbidden-words:
+  - fuck
+  - shit
+
+# message that will appear when sending a forbidden word
+# (this will only be seen by the player who sent it, not by everyone)
+forbidden-chat: "hey don't say that here"
+
+
+# message that will be sent after deleting the chat to all players.
+message-clearchat: "chat deleted by admin"
+
+
+# ------------------------
+# - plugin permissions - 
+
+# (to avoid chat penalties)
+# bypasschat.mc 
+
+# to delete the chat
+# clearchat.command
+
+# ------------------------
