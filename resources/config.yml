@@ -23,9 +23,9 @@ message-clearchat: "chat deleted by admin"
 # - plugin permissions - 
 
 # (to avoid chat penalties)
-# bypasschat.mc 
+# moderationchat.admin
 
 # to delete the chat
-# clearchat.command
+# moderationchat.command
 
 # ------------------------
