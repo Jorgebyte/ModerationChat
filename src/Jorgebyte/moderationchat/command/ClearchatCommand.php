@@ -1,6 +1,6 @@
 <?php
 
-namespace  Jorgebyte\moderationchat\command;
+namespace Jorgebyte\moderationchat\command;
 
 use pocketmine\player\Player;
 
